@@ -1,0 +1,18 @@
+@mixin lpFontLoad($name, $file, $weight, $style) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../../fonts/#{$file}.woff") format("woff"),
+      url("../../fonts/#{$file}.ttf") format("truetype"),
+      url("../../fonts/#{$file}.svg##{$name}") format("svg");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@include lpFontLoad(Poppins-Bold, Poppins-Bold, normal, normal);
+@include lpFontLoad(Poppins-Regular, Poppins-Regular, normal, normal);
+@include lpFontLoad(Poppins-ExtraBold, Poppins-ExtraBold, normal, normal);
+
+$tipografia1: "Poppins-Bold";
+$tipografia2: "Poppins-Regular";
+$tipografia3: "Poppins-ExtraBold";

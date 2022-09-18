@@ -1,0 +1,214 @@
+@import "../../utility/colors";
+@import "../../utility/variables";
+@import "../../utility/tipografia";
+
+.navsuperior {
+  position: fixed !important;
+  z-index: 1000 !important;
+  background-color: $colorfondoquaternary !important;
+  justify-content: center !important;
+  @include extra-min-phone {
+    justify-content: center !important;
+  }
+  @include super-min-phone {
+    justify-content: center !important;
+  }
+
+  .row {
+    .offcanvasExamplee {
+      button {
+        i {
+          font-size: 20px;
+        }
+      }
+
+      #offcanvasExample {
+        display: none;
+        // position: absolute;
+        @include desktop {
+          background-color: rebeccapurple;
+          // display: none !important;
+        }
+        @include tablet {
+          display: block;
+        }
+        @include phone {
+          display: block;
+        }
+        @include extra-min-phone {
+          display: block;
+        }
+        @include super-min-phone {
+          display: block;
+        }
+
+        .offcanvas-body {
+          ul {
+            list-style: none;
+          }
+        }
+      }
+    }
+
+    .menutendencias {
+      background-color: blue;
+      .row {
+        div:first-child {
+          @include phone {
+            flex-direction: column;
+          }
+          @include extra-min-phone {
+            flex-direction: column;
+          }
+          @include super-min-phone {
+            flex-direction: column;
+          }
+
+          ul {
+            @include phone {
+              padding: 0;
+            }
+          }
+        }
+
+        div {
+          // justify-content: center;
+          align-items: center;
+          color: white;
+          h4 {
+            @include tablet {
+              font-size: 20px;
+            }
+          }
+
+          ul {
+            list-style: none;
+            @include extra-min-phone {
+              padding: 0;
+              flex-wrap: wrap;
+            }
+            @include super-min-phone {
+              padding: 0;
+              flex-wrap: wrap;
+            }
+
+            li {
+              padding: 0 0 5px 0;
+              @include extra-min-phone {
+                flex: 1 50%;
+                padding-bottom: 10px;
+              }
+              @include super-min-phone {
+                flex: 1 50%;
+                padding-bottom: 10px;
+              }
+
+              a {
+                text-decoration: none;
+                color: $textcolorquaternary;
+                font-family: $tipografia2;
+
+                font-size: 18px;
+                padding: 0 10px;
+                @include tablet {
+                  font-size: 14px;
+                }
+                @include phone {
+                  font-size: 14px;
+                }
+                @include extra-min-phone {
+                  font-size: 14px;
+                }
+                @include super-min-phone {
+                  font-size: 12px;
+                }
+              }
+            }
+
+            li:hover {
+              padding: 0;
+              a {
+                // padding: 0 0 15px 0;
+                background: transparent;
+                color: $textcolorsecundary;
+                border-bottom: 3px solid $bordercolorprimary;
+              }
+            }
+          }
+        }
+
+        div:last-child {
+          @include phone {
+            padding: 0 !important;
+          }
+
+          ul {
+            @include phone {
+              padding: 15px 0 0 0;
+              justify-content: center !important;
+            }
+            @include extra-min-phone {
+              flex-wrap: nowrap;
+              justify-content: start !important;
+            }
+            @include super-min-phone {
+              flex-wrap: nowrap;
+              justify-content: start !important;
+            }
+
+            li {
+              @include extra-min-phone {
+                text-align: center;
+                padding: 0;
+              }
+              @include super-min-phone {
+                text-align: center;
+                padding: 0;
+              }
+
+              a {
+                @include phone {
+                  font-size: 20px;
+                }
+                @include extra-min-phone {
+                  font-size: 20px;
+                }
+                @include super-min-phone {
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemOffcanvasmenu {
+  list-style: none;
+  li {
+    a {
+      font-family: $tipografia2;
+      font-size: 20px;
+      color: $textcolorprimary;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $textcolorsecundary;
+    }
+  }
+}
+
+.offcanvas-title {
+  font-family: $tipografia1;
+  border-bottom: 1px solid $bordercolorsecundary;
+  padding-bottom: 5px;
+}
+
+.buttonOffcanvas {
+  i {
+    font-size: 20px !important;
+  }
+}

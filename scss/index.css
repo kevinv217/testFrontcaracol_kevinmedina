@@ -1,0 +1,741 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.ttf") format("truetype"), url("../../fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.ttf") format("truetype"), url("../../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../../fonts/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins-ExtraBold.ttf") format("truetype"), url("../../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.navsuperior {
+  position: fixed !important;
+  z-index: 1000 !important;
+  background-color: #ffffff !important;
+  justify-content: center !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior {
+    justify-content: center !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior {
+    justify-content: center !important;
+  }
+}
+.navsuperior .row .offcanvasExamplee button i {
+  font-size: 20px;
+}
+.navsuperior .row .offcanvasExamplee #offcanvasExample {
+  display: none;
+}
+@media (min-width: 992px) and (max-width: 1115px) {
+  .navsuperior .row .offcanvasExamplee #offcanvasExample {
+    background-color: rebeccapurple;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navsuperior .row .offcanvasExamplee #offcanvasExample {
+    display: block;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .offcanvasExamplee #offcanvasExample {
+    display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .offcanvasExamplee #offcanvasExample {
+    display: block;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .offcanvasExamplee #offcanvasExample {
+    display: block;
+  }
+}
+.navsuperior .row .offcanvasExamplee #offcanvasExample .offcanvas-body ul {
+  list-style: none;
+}
+.navsuperior .row .menutendencias {
+  background-color: blue;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div:first-child {
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div:first-child {
+    flex-direction: column;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div:first-child {
+    flex-direction: column;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div:first-child ul {
+    padding: 0;
+  }
+}
+.navsuperior .row .menutendencias .row div {
+  align-items: center;
+  color: white;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navsuperior .row .menutendencias .row div h4 {
+    font-size: 20px;
+  }
+}
+.navsuperior .row .menutendencias .row div ul {
+  list-style: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div ul {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div ul {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+.navsuperior .row .menutendencias .row div ul li {
+  padding: 0 0 5px 0;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div ul li {
+    flex: 1 50%;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div ul li {
+    flex: 1 50%;
+    padding-bottom: 10px;
+  }
+}
+.navsuperior .row .menutendencias .row div ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  padding: 0 10px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navsuperior .row .menutendencias .row div ul li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div ul li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div ul li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div ul li a {
+    font-size: 12px;
+  }
+}
+.navsuperior .row .menutendencias .row div ul li:hover {
+  padding: 0;
+}
+.navsuperior .row .menutendencias .row div ul li:hover a {
+  background: transparent;
+  color: #5ab8ea;
+  border-bottom: 3px solid #5ab8ea;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div:last-child {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div:last-child ul {
+    padding: 15px 0 0 0;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div:last-child ul {
+    flex-wrap: nowrap;
+    justify-content: start !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div:last-child ul {
+    flex-wrap: nowrap;
+    justify-content: start !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div:last-child ul li {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div:last-child ul li {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navsuperior .row .menutendencias .row div:last-child ul li a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navsuperior .row .menutendencias .row div:last-child ul li a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .navsuperior .row .menutendencias .row div:last-child ul li a {
+    font-size: 20px;
+  }
+}
+
+.itemOffcanvasmenu {
+  list-style: none;
+}
+.itemOffcanvasmenu li a {
+  font-family: "Poppins-Regular";
+  font-size: 20px;
+  color: #222222;
+  text-decoration: none;
+}
+.itemOffcanvasmenu li a:hover {
+  color: #5ab8ea;
+}
+
+.offcanvas-title {
+  font-family: "Poppins-Bold";
+  border-bottom: 1px solid #aeaea5;
+  padding-bottom: 5px;
+}
+
+.buttonOffcanvas i {
+  font-size: 20px !important;
+}
+
+.child {
+  margin-top: 135px !important;
+  background-color: #ededed;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .child {
+    margin-top: 132px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .child {
+    margin-top: 207px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .child {
+    margin-top: 235px !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .child {
+    margin-top: 235px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .child .row .breadcrumbcontain {
+    padding: 0 1.5rem !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .child .row .breadcrumbcontain {
+    padding: 0 1.2rem !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .child .row .breadcrumbcontain {
+    padding: 0 1.2rem !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .child .row .breadcrumbcontain {
+    padding: 0 1.2rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .imgBackgroundMain img {
+    height: 75px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .imgBackgroundMain img {
+    height: 60px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .imgBackgroundMain img {
+    height: 60px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .imgBackgroundMain img {
+    height: 40px;
+  }
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.ttf") format("truetype"), url("../../fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.ttf") format("truetype"), url("../../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../../fonts/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins-ExtraBold.ttf") format("truetype"), url("../../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.breadcrumbPersonal {
+  list-style: none;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .breadcrumbPersonal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .breadcrumbPersonal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .breadcrumbPersonal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .breadcrumbPersonal li {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .breadcrumbPersonal li {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .breadcrumbPersonal li {
+    padding: 0 !important;
+  }
+}
+.breadcrumbPersonal li a {
+  text-decoration: none;
+  font-family: "Poppins-Regular";
+  font-weight: 600;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .breadcrumbPersonal li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .breadcrumbPersonal li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .breadcrumbPersonal li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .breadcrumbPersonal li a {
+    font-size: 13px;
+  }
+}
+
+.color1 {
+  color: #222222;
+}
+
+.color1:hover {
+  color: #222222;
+}
+
+.color2 {
+  color: #042d66;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">") !important;
+}
+
+.informacionMusic {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .informacionMusic {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informacionMusic {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informacionMusic {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informacionMusic {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informacionMusic .row .informacionImg {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informacionMusic .row .informacionImg {
+    padding: 0;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informacionMusic .row .informacionImg {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .informationGeneral {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informationGeneral {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informationGeneral {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informationGeneral {
+    padding: 15px 0 0 0 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .informationGeneral h3 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informationGeneral h3 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informationGeneral h3 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informationGeneral h3 {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .informationGeneral p {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informationGeneral p {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informationGeneral p {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informationGeneral p {
+    font-size: 15px !important;
+  }
+}
+.informationGeneral .audio div h3 {
+  font-family: "Poppins-Bold";
+}
+.informationGeneral .audio div section span {
+  font-family: "Poppins-Regular";
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .informationGeneral section {
+    flex-direction: row !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informationGeneral section {
+    flex-direction: row !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informationGeneral section {
+    flex-direction: row !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informationGeneral section {
+    align-items: center !important;
+  }
+}
+.informationGeneral section h5,
+.informationGeneral section p {
+  font-family: "Poppins-Regular";
+  text-transform: capitalize;
+}
+.informationGeneral section ul {
+  list-style: none;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .informationGeneral section ul {
+    margin: 0.5rem 0 0 1rem !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .informationGeneral section ul {
+    margin: 0.5rem 0 0 1rem !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .informationGeneral section ul {
+    margin: 0.5rem 0 0 1rem !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .informationGeneral section ul {
+    margin: 0.5rem 0 0 1rem !important;
+  }
+}
+.informationGeneral section ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.audio {
+  align-items: center;
+  background-color: yellow;
+  border-radius: 50px;
+  padding: 5px 10px;
+  width: 60%;
+}
+@media (min-width: 992px) and (max-width: 1115px) {
+  .audio {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .audio {
+    width: 80%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .audio {
+    width: 80%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .audio {
+    width: 100%;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .audio {
+    width: 100%;
+  }
+}
+.audio button {
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  padding: 5px 15px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .audio button {
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .audio button {
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .audio button {
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .audio button {
+    padding: 5px 10px;
+  }
+}
+.audio button i {
+  font-size: 30px;
+  color: yellow;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .audio button i {
+    font-size: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .audio button i {
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .audio button i {
+    font-size: 15px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .audio button i {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .audio div h3,
+.audio div section > span {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .audio div h3,
+.audio div section > span {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .audio div h3,
+.audio div section > span {
+    font-size: 12px !important;
+  }
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.ttf") format("truetype"), url("../../fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.ttf") format("truetype"), url("../../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../../fonts/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins-ExtraBold.ttf") format("truetype"), url("../../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  color: white;
+  font-family: "Poppins-Bold";
+  font-size: 55px !important;
+}
+
+h2 {
+  color: white;
+  font-family: "Poppins-Bold";
+  font-size: 45px !important;
+}
+
+h3 {
+  color: #222222;
+  font-family: "Poppins-Bold";
+  font-size: 30px !important;
+}
+
+h4 {
+  color: white;
+  font-family: "Poppins-Bold";
+  font-size: 30px;
+}
+
+h5 {
+  color: #222222;
+  font-family: "Poppins-Regular";
+  font-size: 24px;
+}
+
+h6 {
+  font-family: "Poppins-Regular";
+  font-size: 15px !important;
+  color: #b5b0af;
+}
+
+label {
+  font-family: "Poppins-Bold";
+  color: #b5b0af;
+}
+
+p {
+  color: #53504b;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+}
+
+span {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  color: #53504b;
+}
+
+strong {
+  font-family: "Poppins-Bold";
+  font-size: 20px;
+}/*# sourceMappingURL=index.css.map */

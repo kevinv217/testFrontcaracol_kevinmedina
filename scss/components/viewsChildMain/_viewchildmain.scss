@@ -1,0 +1,50 @@
+.child {
+  margin-top: 135px !important;
+  background-color: $colorfondosextiary;
+  @include tablet {
+    margin-top: 132px !important;
+  }
+  @include phone {
+    margin-top: 207px !important;
+  }
+  @include extra-min-phone {
+    margin-top: 235px !important;
+  }
+  @include super-min-phone {
+    margin-top: 235px !important;
+  }
+
+  .row {
+    .breadcrumbcontain {
+      @include tablet {
+        padding: 0 1.5rem !important;
+      }
+      @include phone {
+        padding: 0 1.2rem !important;
+      }
+      @include extra-min-phone {
+        padding: 0 1.2rem !important;
+      }
+      @include super-min-phone {
+        padding: 0 1.2rem !important;
+      }
+    }
+  }
+}
+
+.imgBackgroundMain {
+  img {
+    @include tablet {
+      height: 75px;
+    }
+    @include phone {
+      height: 60px;
+    }
+    @include extra-min-phone{
+      height: 60px;
+    }
+    @include super-min-phone{
+      height: 40px;
+    }
+  }
+}

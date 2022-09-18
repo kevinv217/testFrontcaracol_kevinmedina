@@ -1,0 +1,19 @@
+{
+  "name": "handlebars-traning-testfrontcaralcoltv-km",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kevin medina",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}

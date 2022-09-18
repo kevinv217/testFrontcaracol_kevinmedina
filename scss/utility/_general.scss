@@ -1,0 +1,64 @@
+h1 {
+  color: $textcolorquaternary;
+  font-family: $tipografia1;
+  font-size: 55px !important;
+}
+
+h2 {
+  color: $textcolorquaternary;
+  font-family: $tipografia1;
+  font-size: 45px !important;
+}
+
+h3 {
+  color: $textcolorprimary;
+  font-family: $tipografia1;
+  font-size: 30px !important;
+}
+
+h4 {
+  color: $textcolorquaternary;
+  font-family: $tipografia1;
+  font-size: 30px;
+}
+
+h5 {
+  color: $textcolorprimary;
+  font-family: $tipografia2;
+  font-size: 24px;
+}
+
+h6 {
+  font-family: $tipografia2;
+  font-size: 15px !important;
+  color: $textcolortertiary;
+}
+
+label {
+  font-family: $tipografia1;
+  color: $textcolortertiary;
+}
+
+p {
+  color: $textcolorcincotiary;
+  font-size: 18px;
+  font-family: $tipografia2;
+}
+
+span {
+  font-family: $tipografia2;
+  font-size: 16px;
+  color: $textcolorcincotiary;
+}
+
+strong {
+  font-family: $tipografia1;
+  font-size: 20px;
+}
+
+// i {
+//   color: $textcolorsecundary;
+// }
+
+
+

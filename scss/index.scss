@@ -1,0 +1,11 @@
+//structure main of body
+@import "./components/navSuperior/lpNavSuperior";
+@import './components/viewsChildMain/viewchildmain';
+
+// styles of views mains
+@import './components/viewsInicio/viewsinicio';
+//utilidades
+@import "./utility/variables";
+@import "./utility/colors";
+@import './utility/tipografia';
+@import './utility/general';
