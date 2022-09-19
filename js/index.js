@@ -1,4 +1,4 @@
-"use strcit";
+"use strict";
 
 import cast from "../data/test.json" assert { type: "json" };
 import dataContenidos from "../data/data.js";
@@ -7,12 +7,12 @@ import dataContenidos from "../data/data.js";
 function showContent(datos) {
   let devolverdatos = datos.map((dato) => {
     // console.log(dato, cast);
-    const menu = document.querySelector(`#${dato.itemsChild}`).innerHTML;
-    const templateMenu = Handlebars.compile(menu);
-    const htmlMenu = templateMenu(cast);
+    const itemsChild = document.querySelector(`#${dato.itemsChild}`).innerHTML;
+    const template = Handlebars.compile(itemsChild);
+    const htmlMain = template(cast);
 
     return (document.querySelector(`#${dato.contenidoParent}`).innerHTML =
-      htmlMenu);
+      htmlMain);
   });
 
   return devolverdatos;
