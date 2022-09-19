@@ -1,44 +1,24 @@
 "use strcit";
 
 import cast from "../data/test.json" assert { type: "json" };
-// import activeMusic from "./components/audio/audio";
+import dataContenidos from "../data/data.js";
 
+//renderizar datos del contenido principal
+function showContent(datos) {
+  let devolverdatos = datos.map((dato) => {
+    // console.log(dato, cast);
+    const menu = document.querySelector(`#${dato.itemsChild}`).innerHTML;
+    const templateMenu = Handlebars.compile(menu);
+    const htmlMenu = templateMenu(cast);
 
-const menu = document.querySelector("#itemMenu").innerHTML;
-const logo = document.querySelector("#logoHijo").innerHTML;
-const itemsTendencias = document.querySelector("#tendenciasHijos").innerHTML;
-const itemsSocial = document.querySelector("#itemsocial").innerHTML;
-const itemsPageLead = document.querySelector("#itemPageLead").innerHTML;
-const itemsBreadcrumb = document.querySelector("#itemsBreadcrumb").innerHTML;
-const itemsLead = document.querySelector("#itemsLead").innerHTML;
-const itemsInformacion = document.querySelector("#itemsinformacion").innerHTML;
+    return (document.querySelector(`#${dato.contenidoParent}`).innerHTML =
+      htmlMenu);
+  });
 
-const templateMenu = Handlebars.compile(menu);
-const templateLogo = Handlebars.compile(logo);
-const templateTendencias = Handlebars.compile(itemsTendencias);
-const templateSocial = Handlebars.compile(itemsSocial);
-const templatePageLead = Handlebars.compile(itemsPageLead);
-const templateBreadcrumb = Handlebars.compile(itemsBreadcrumb);
-const templateLead = Handlebars.compile(itemsLead);
-const templateInformacion = Handlebars.compile(itemsInformacion);
+  return devolverdatos;
+}
 
-const htmlMenu = templateMenu(cast);
-const htmlLogo = templateLogo(cast);
-const htmlTendencias = templateTendencias(cast);
-const htmlSocial = templateSocial(cast);
-const htmlPageLead = templatePageLead(cast);
-const htmlBreadcrumb = templateBreadcrumb(cast);
-const htmlLead = templateLead(cast);
-const htmlInformacion = templateInformacion(cast);
-
-document.querySelector("#contenidoMenu").innerHTML = htmlMenu;
-document.querySelector("#contenidologo").innerHTML = htmlLogo;
-document.querySelector("#contenidoTendencias").innerHTML = htmlTendencias;
-document.querySelector("#contenidoSocial").innerHTML = htmlSocial;
-document.querySelector("#contenidoPageLead").innerHTML = htmlPageLead;
-document.querySelector("#contenidoBreadcrumb").innerHTML = htmlBreadcrumb;
-document.querySelector("#contenidoLead").innerHTML = htmlLead;
-document.querySelector("#contenidoinformacion").innerHTML = htmlInformacion;
+showContent(dataContenidos);
 
 // function for click music -----------------------------------------------------
 function activeMusic(datos) {
